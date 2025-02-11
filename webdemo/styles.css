@@ -1,0 +1,61 @@
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #555;
+}
+
+button {
+  font-size: 2rem;
+  width: 24rem;
+  text-align: left;
+}
+
+h1,
+h2,
+strong {
+  margin-bottom: 0;
+  color: #333;
+}
+
+a {
+  color: #e81c4f;
+}
+
+p {
+  margin: 0;
+}
+
+.spacer {
+  height: 4rem;
+}
+
+.perfbar {
+  height: 2rem;
+  width: 0%;
+  vertical-align: middle;
+  position: relative;
+  margin-bottom: 1rem;
+  padding-left: 0rem;
+}
+
+#rest {
+  background: #52a8ff;
+}
+
+#graphql {
+  background: #ff5050;
+}
+
+.vertical-center {
+  padding-left: 1rem;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
